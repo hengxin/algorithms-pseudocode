@@ -3,5 +3,21 @@
 \chapter{Dynamic Programming}	\label{chapter:dp}
 
 \input{algs/dp/binom-recursive}
+
+\begin{figure}[h]
+  \includegraphics[width = 0.75\textwidth]{figs/binom-4-2}
+  \caption{Calculate $\binom{4}{2}$ recursively.}
+  \label{fig:binom-recursive}
+\end{figure}
+
+\begin{figure}[h]
+  \includegraphics[width = 0.65\textwidth]{figs/pascal}
+  \caption{Pascal triangle for binomial coefficients.}
+  \label{fig:pascal}
+\end{figure}
+
 \input{algs/dp/binom-dp}
 
+\[
+  (n-k+1) + (k) + k (n-k) = nk - k^2 + n + 1
+\]
