@@ -20,3 +20,7 @@ We follow the [GitHub Standard Fork & Pull Request Workflow](https://gist.github
 This book template we use is developed by The Tufte-LaTeX Developers 
 for producing books according to the style of Edward R. Tufte.
 For more information, please visit [Book Tufte-Style @ ShareLaTeX](https://www.sharelatex.com/templates/54e21007fd6c05e77b8fdfed).
+
+## TODO
+
+- [ ] List of Algorithms in TOC
