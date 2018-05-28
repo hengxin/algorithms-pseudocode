@@ -2,6 +2,14 @@
 
 \chapter{Searching}	\label{chapter:searching}
 
+% deterministic search
+Algorithm \ref{alg:deterministic-search} (see Problem $5-2$ of \cite{CLRS09})
+searches for a value $x$ in an unsorted array $A$ consisting of $n$ elements 
+by checking $A[1], A[2], \cdots, A[n]$ in order until either it finds $A[i] = x$
+or it reaches the end of the array.
+
+\input{algs/searching/deterministic-search}
+
 % binary stride
 \begin{figure}
   \centering
