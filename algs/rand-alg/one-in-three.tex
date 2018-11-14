@@ -1,0 +1,14 @@
+% file: algs/rand-alg/one-in-three.tex
+
+\begin{algorithm}[H]
+  \caption{One in three.}
+  \begin{algorithmic}[1]
+    \Procedure{OneInThree}{}
+      \If{$\Call{FairBit}{} = 0$}
+	\State \Return $0$
+      \Else
+	\State \Return $1 - \Call{OneInThree}{}$
+      \EndIf
+    \EndProcedure
+  \end{algorithmic}
+\end{algorithm}
